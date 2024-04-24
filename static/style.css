@@ -1,0 +1,118 @@
+body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+    }
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0320e3, #0050ff, #006fff, #0087ff, #009cff, #00aeff, #00beff, #00cddf, #00dcb5, #00ea88, #00f556, #11ff00);
+    background-size:400% 400% ;
+    z-index: -1;
+    filter: blur(5px);
+    animation: grbg 5s infinite alternate ease-in-out;
+}
+@keyframes grbg {
+    0%{
+        background-position:0% 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+    .form-container {
+            background-color: white;
+            box-shadow: 0 0 10px white;
+            border-radius: 8px;
+            padding: 25px;
+            width: 1200px;
+    }
+
+        .heading-text {
+            text-align: left;
+            color: #333;
+            float: left;
+            width: 700px;
+        }
+        .forms{
+            float: right;
+            width: 500px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-family: "Arial Rounded MT Bold", bolder, serif;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: rgba(0, 123, 255, 0.76);
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: white;
+            color: #641dfa;
+            border: 1px solid #641dfa;
+        }
+.circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+h1 {
+    font-family: 'Black Ops One', system-ui;
+    font-size: 40px;
+    line-height: 90px;
+    background: linear-gradient(90deg, #11ff00, #00f859, #00ee8e, #00e3c0, #00d6ef, #00c9ff, #00baff, #00a9ff, #0095ff, #007bff, #0059ff, #641dfa);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.detail p{
+    font-family: "Arial Rounded MT Bold", bolder, serif;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 30px;
+    background: linear-gradient(90deg, #11ff00, #00f859, #00ee8e, #00e3c0, #00d6ef, #00c9ff, #00baff, #00a9ff, #0095ff, #007bff, #0059ff, #641dfa);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.detail h1{
+    font-family: 'Black Ops One', system-ui;
+    font-size: 15px;
+    line-height: 30px;
+    background: linear-gradient(90deg, #11ff00, #00f859, #00ee8e, #00e3c0, #00d6ef, #00c9ff, #00baff, #00a9ff, #0095ff, #007bff, #0059ff, #641dfa);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

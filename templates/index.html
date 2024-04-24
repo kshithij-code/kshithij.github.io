@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Report Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="bg"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <script src="/static/script.js"></script>
+    <div class="form-container">
+        <div class="heading-text"><h1>Student Details PDF Generator</h1></div>
+        <div class="forms">
+        <form action="/generate_pdf" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="roll_number">Roll Number:</label>
+                <input type="text" id="roll_number" name="roll_number" required>
+            </div>
+            <div class="form-group">
+                <label for="grade">Semester:</label>
+                <input type="text" id="grade" name="grade" required>
+            </div>
+            <div>
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" required>
+            </div>
+            <button type="submit">Generate PDF</button>
+        </form>
+        </div>
+        <div class="detail"><h1>More:</h1></div>
+        <div class="detail">
+            <p>The Student Details Generator is an intuitive web tool designed for effortlessly creating personalized <br>
+                student reports.Users input essential details in a user-friendly form, and with a single click, the application dynamically generates a well-structured PDF report.
+                Featuring customizable templates, the tool caters to diverse institutional needs, ensuring a branded appearance in the reports,
+                The responsive design allows seamless access across devices.
+                Simply fill in student details, generate the PDF report, and download it for distribution or archival purposes.
+                Streamlining the process, this generator enhances the efficiency of managing and sharing student information.<br>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
