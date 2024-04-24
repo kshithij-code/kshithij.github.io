@@ -4,3 +4,4 @@ services:
     runtime: python
     plan: standard
     buildCommand: "./app.py"
+    startCommand: "python app.py"
